@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "On Screen Buttons Setup", "On Screen Buttons Setup\On Screen Buttons Setup.vdproj", "{78B1084E-7327-4EF9-9780-DEC2BAE5E6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSBWPF", "OSBWPF\OSBWPF.csproj", "{0343C974-0150-405A-9FB6-F226A04E2523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSB.Core", "OSB.Core\OSB.Core.csproj", "{9EBC150E-4212-429E-AE98-5792B07476E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B1084E-7327-4EF9-9780-DEC2BAE5E6CC}.Debug|Any CPU.ActiveCfg = Debug
+		{78B1084E-7327-4EF9-9780-DEC2BAE5E6CC}.Debug|x64.ActiveCfg = Debug
+		{78B1084E-7327-4EF9-9780-DEC2BAE5E6CC}.Release|Any CPU.ActiveCfg = Release
+		{78B1084E-7327-4EF9-9780-DEC2BAE5E6CC}.Release|x64.ActiveCfg = Release
+		{0343C974-0150-405A-9FB6-F226A04E2523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0343C974-0150-405A-9FB6-F226A04E2523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0343C974-0150-405A-9FB6-F226A04E2523}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0343C974-0150-405A-9FB6-F226A04E2523}.Debug|x64.Build.0 = Debug|Any CPU
+		{0343C974-0150-405A-9FB6-F226A04E2523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0343C974-0150-405A-9FB6-F226A04E2523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0343C974-0150-405A-9FB6-F226A04E2523}.Release|x64.ActiveCfg = Release|Any CPU
+		{0343C974-0150-405A-9FB6-F226A04E2523}.Release|x64.Build.0 = Release|Any CPU
+		{9EBC150E-4212-429E-AE98-5792B07476E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBC150E-4212-429E-AE98-5792B07476E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBC150E-4212-429E-AE98-5792B07476E6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9EBC150E-4212-429E-AE98-5792B07476E6}.Debug|x64.Build.0 = Debug|Any CPU
+		{9EBC150E-4212-429E-AE98-5792B07476E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBC150E-4212-429E-AE98-5792B07476E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EBC150E-4212-429E-AE98-5792B07476E6}.Release|x64.ActiveCfg = Release|Any CPU
+		{9EBC150E-4212-429E-AE98-5792B07476E6}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB57A235-F07A-47EB-889E-43114C54001A}
+	EndGlobalSection
+EndGlobal
