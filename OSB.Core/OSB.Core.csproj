@@ -54,6 +54,8 @@
     <Compile Include="OSBButtonTag.cs" />
     <Compile Include="OSBConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateChecker.cs" />
+    <Compile Include="UpdateInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
