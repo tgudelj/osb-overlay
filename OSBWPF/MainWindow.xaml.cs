@@ -12,6 +12,9 @@ using System.Windows.Threading;
 using vJoyInterfaceWrap;
 using System.Linq;
 using Microsoft.Win32;
+using OSB.Core;
+using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace OSBWPF
 {
@@ -46,6 +49,39 @@ namespace OSBWPF
             timer.Interval = TimeSpan.FromMilliseconds(FOREGROUND_WINDOW_CHECK_INTERVAL);
             timer.Tick += Timer_Tick;
             timer.Start();
+            CheckUpdate();       
+        }
+
+        /// <summary>
+        /// Check if an update is available
+        /// </summary>
+        private async void CheckUpdate() {
+            try
+            {
+                await UpdateChecker.Check().ContinueWith(t =>
+                {
+                    Debug.WriteLine("aaa");
+                    UpdateInfo info = t.Result;
+                    if (info.UpdateAvailable)
+                    {
+                        this.Topmost = false;
+                        MessageBoxResult mbResult = MessageBox.Show($@"Version {info.majorVersion}.{info.minorVersion}{Environment.NewLine}{info.description}{Environment.NewLine}{Environment.NewLine}Do you wish to download the update?", "Update is available", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                        if (mbResult == MessageBoxResult.Yes)
+                        {
+                            //Start download
+                            Process.Start(info.downloadUrl);
+                            //Exit app
+                            Environment.Exit(0);
+                            return;
+                        }
+                        this.Topmost = true;
+                    }
+                }, TaskScheduler.FromCurrentSynchronizationContext());
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($@"Exception occured trying to get update info {ex.Message}");
+            }
         }
 
         #region *** Event handlers ***

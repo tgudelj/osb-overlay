@@ -1,43 +1,38 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OSB.Core {
-    public class UpdateChecker {
-        public async void Check() {
-            WebClient client = new WebClient();
+namespace OSB.Core
+{
+    public static class UpdateChecker
+    {
+        public static int CHECK_TIMEOUT = 5000;
+        /// <summary>
+        /// Try to get the info on the latest available version
+        /// </summary>
+        /// <returns>UpdateInfo</returns>
+        public static async Task<UpdateInfo> Check()
+        {
+            WebClient webClient = new WebClient();
             try
             {
-                string updateInfoString = await client.DownloadStringTaskAsync("https://matricapp.com/update.json");
-                UpdateInfo info = JsonConvert.DeserializeObject<UpdateInfo>(updateInfoString);
-                Version version = Assembly.GetExecutingAssembly().GetName().Version;
-                //Compare update info and current version
-                if (version.Major < info.update.majorVersion)
-                {
-                    info.updateAvailable = true;
-                }
-                else
-                {
-                    if (version.Major <= info.update.majorVersion && version.Minor < info.update.minorVersion)
-                    {
-                        info.updateAvailable = true;
-                    }
-                }
-                if (callback != null)
-                {
-                    await callback.ExecuteAsync(new object[] { info });
-                }
+                string updateInfoString = await webClient.DownloadStringTaskAsync(new Uri("https://matricapp.com/osb-update.json"));
+                return JsonConvert.DeserializeObject<UpdateInfo>(updateInfoString);
             }
-            catch
+            catch (Exception ex)
             {
-                if (callback != null)
+                UpdateInfo info = new UpdateInfo
                 {
-                    await callback.ExecuteAsync(new object[] { null });
-                }
+                    description = $@"Could not get update info {ex.Message}"
+                };
+                return info;
             }
-        }
 
+        }
     }
 }
