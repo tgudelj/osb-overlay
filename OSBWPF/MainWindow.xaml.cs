@@ -451,7 +451,7 @@ namespace OSBWPF
             button.Margin = new Thickness(btnConfig.X, btnConfig.Y, 0, 0);
             button.Style = Resources["OSBButtonStyle"] as Style;
             button.BorderThickness = new Thickness(0, 0, 0, 0);
-            //button.ToolTip = $@"Btn#: {btnConfig.JoyBtnId} {Environment.NewLine} Pos: [{btnConfig.X},{btnConfig.Y}]";
+            //button.Content = $@"Btn#: {(tag!=null?tag.vJoyButtonId:-1)} {Environment.NewLine} Pos: [{btnConfig.X},{btnConfig.Y}]";
             button.Height = btnConfig.Height;
             button.Width = btnConfig.Width;
             BitmapImage bitmap = GetImage(btnConfig.ImageOff);
