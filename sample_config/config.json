@@ -214,7 +214,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 1,
+            "joyBtnId": 21,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1230,
@@ -223,7 +223,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 2,
+            "joyBtnId": 22,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1328,
@@ -232,7 +232,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 3,
+            "joyBtnId": 23,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1426,
@@ -241,7 +241,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 4,
+            "joyBtnId": 24,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1520,
@@ -250,7 +250,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 5,
+            "joyBtnId": 25,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1618,
@@ -258,8 +258,57 @@
             "width": 90,
             "height": 90
         },
+
+{
+    "joyBtnId": 26,
+    "imageOff": "osb_up.png",
+    "imageOn": "osb_down.png",
+    "x": 1825,
+    "y": 392,
+    "width": 90,
+    "height": 90
+},
+{
+    "joyBtnId": 27,
+    "imageOff": "osb_up.png",
+    "imageOn": "osb_down.png",
+    "x": 1825,
+    "y": 488,
+    "width": 90,
+    "height": 90
+},
+{
+    "joyBtnId": 28,
+    "imageOff": "osb_up.png",
+    "imageOn": "osb_down.png",
+    "x": 1825,
+    "y": 584,
+    "width": 90,
+    "height": 90
+},
+{
+    "joyBtnId": 29,
+    "imageOff": "osb_up.png",
+    "imageOn": "osb_down.png",
+    "x": 1825,
+    "y": 680,
+    "width": 90,
+    "height": 90
+},
+{
+    "joyBtnId": 30,
+    "imageOff": "osb_up.png",
+    "imageOn": "osb_down.png",
+    "x": 1825,
+    "y": 776,
+    "width": 90,
+    "height": 90
+},
+
+
+
         {
-            "joyBtnId": 1,
+            "joyBtnId": 31,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1230,
@@ -268,7 +317,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 2,
+            "joyBtnId": 32,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1328,
@@ -277,7 +326,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 3,
+            "joyBtnId": 33,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1426,
@@ -286,7 +335,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 4,
+            "joyBtnId": 34,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1520,
@@ -295,7 +344,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 5,
+            "joyBtnId": 35,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1618,
@@ -304,7 +353,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 16,
+            "joyBtnId": 36,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1025,
@@ -313,7 +362,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 17,
+            "joyBtnId": 37,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1025,
@@ -322,7 +371,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 18,
+            "joyBtnId": 38,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1025,
@@ -331,7 +380,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 19,
+            "joyBtnId": 39,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1025,
@@ -340,7 +389,7 @@
             "height": 90
         },
         {
-            "joyBtnId": 20,
+            "joyBtnId": 40,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 1025,

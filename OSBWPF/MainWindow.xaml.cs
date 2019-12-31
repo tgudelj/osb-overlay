@@ -60,7 +60,6 @@ namespace OSBWPF
             {
                 await UpdateChecker.Check().ContinueWith(t =>
                 {
-                    Debug.WriteLine("aaa");
                     UpdateInfo info = t.Result;
                     if (info.UpdateAvailable)
                     {
@@ -124,10 +123,13 @@ namespace OSBWPF
         /// <param name="e"></param>
         private void OSBPress(object sender, MouseButtonEventArgs e)
         {
-            OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
-            int buttonIndex = tag.ButtonIndex;
-            joystick.SetBtn(true, Config.VJDeviceId, (uint)tag.vJoyButtonId);
-            SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], true);
+            if (e.ChangedButton == MouseButton.Left) {
+                OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
+                int buttonIndex = tag.ButtonIndex;
+                joystick.SetBtn(true, Config.VJDeviceId, (uint)tag.vJoyButtonId);
+                SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], true);
+                e.Handled = true;
+            }
         }
 
         /// <summary>
@@ -137,11 +139,16 @@ namespace OSBWPF
         /// <param name="e"></param>
         private void OSBRelease(object sender, MouseButtonEventArgs e)
         {
-            OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
-            int buttonIndex = tag.ButtonIndex;
-            joystick.SetBtn(false, Config.VJDeviceId, (uint)tag.vJoyButtonId);
-            RestorePrevious();
-            SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], false);
+
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
+                int buttonIndex = tag.ButtonIndex;
+                joystick.SetBtn(false, Config.VJDeviceId, (uint)tag.vJoyButtonId);
+                RestorePrevious();
+                SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], false);
+                e.Handled = true;
+            }
         }
 
         /// <summary>
@@ -203,7 +210,6 @@ namespace OSBWPF
             SetButtonVisual(((Button)sender), Config.LoadButton, false);
             LoadConfig();
         }
-
 
         /// <summary>
         /// Occurs when canvas was clicked (basically anywhere except buttons)
@@ -445,6 +451,7 @@ namespace OSBWPF
             button.Margin = new Thickness(btnConfig.X, btnConfig.Y, 0, 0);
             button.Style = Resources["OSBButtonStyle"] as Style;
             button.BorderThickness = new Thickness(0, 0, 0, 0);
+            //button.ToolTip = $@"Btn#: {btnConfig.JoyBtnId} {Environment.NewLine} Pos: [{btnConfig.X},{btnConfig.Y}]";
             button.Height = btnConfig.Height;
             button.Width = btnConfig.Width;
             BitmapImage bitmap = GetImage(btnConfig.ImageOff);
