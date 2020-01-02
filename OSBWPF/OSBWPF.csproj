@@ -117,14 +117,33 @@
     <Content Include="Check out MATRIC app.url">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="OSB Help and Support.url">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Resource Include="sample_config\2mfcd.png" />
+    <Resource Include="sample_config\jf17-2.png" />
+    <Resource Include="sample_config\jf17-3.png" />
+    <Resource Include="sample_config\load_down.png" />
+    <Resource Include="sample_config\load_up.png" />
+    <Resource Include="sample_config\osb_down.png" />
+    <Resource Include="sample_config\osb_up.png" />
+    <Resource Include="sample_config\red_down.png" />
+    <Resource Include="sample_config\red_up.png" />
+    <Resource Include="sample_config\reload_down.png" />
+    <Resource Include="sample_config\reload_up.png" />
     <Content Include="vJoyInit.reg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="sample_config\buttonDesigner.xlsm" />
+    <None Include="sample_config\config.json" />
+    <None Include="sample_config\f16.json" />
+    <None Include="sample_config\jf17-2.json" />
+    <None Include="sample_config\jf17-3.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

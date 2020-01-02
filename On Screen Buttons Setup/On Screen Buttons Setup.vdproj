@@ -15,7 +15,55 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0BD0EE2A219F4C2EBD4F897DB738531D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_38840DBCFDC14565A9CD848FCA27A426"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3899271125534ACCB8F53417A5DC6611"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_46786AB4361D440BB6D25D2C24169885"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_510C8DA6C6574D4EA58A042636F3BE7C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_521B432D7391E514618101577F52463F"
+        "OwnerKey" = "8:_836F109FE6384BEE8386C7FD2BF180FC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5336A584147D4BDA814D4943E956FECF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_69511EA478F94A7BBA3B487CDAF3E5FC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6B1234593482414399D864A952735F29"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -27,7 +75,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_ABE63C7018164232A9EA240C8535342E"
+        "MsmKey" = "8:_A9528ADBC39D4C74BF4F8524D5403259"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AD7ED4516F7D4945B608C85DADCB2B6A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B3E2F43429904E91A5297B18EA153A9E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,8 +105,44 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BA1B3A43967DD9D165E18E289B5FD906"
-        "OwnerKey" = "8:_836F109FE6384BEE8386C7FD2BF180FC"
+        "MsmKey" = "8:_B9545AE406C7443DB32E23C5152BF089"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CD42A43B28854B0FB4D2E59A23C3D2F5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CEBE931A66724C2CAD9F98AE965B8630"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D46932E951DF4FD2B787EAE25711813E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D5CFAF7FC534498EA1D3640F135B26F9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D61CD80815E54A1DB4F51B4544C68CA0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D77F6C3FC9AD484A93F33AAF5A6A785C"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -57,8 +153,26 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_EC5FC15D4A004D5F8D33EFDE5E08F9E0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_ED5F03E26FA5ED09D0A9A371D751D27B"
         "OwnerKey" = "8:_836F109FE6384BEE8386C7FD2BF180FC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F4A63A9E7BE1492F85FA5191C009A7CA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FC42529D1028414C979DC49DF23E420C"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -71,12 +185,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_E8C385DD389F83DD69811B8730A9F05C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BA1B3A43967DD9D165E18E289B5FD906"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -89,6 +197,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_B43538DC919D5222B0794E4661F64207"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_521B432D7391E514618101577F52463F"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -200,6 +314,46 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0BD0EE2A219F4C2EBD4F897DB738531D"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\reload_up.png"
+            "TargetName" = "8:reload_up.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_38840DBCFDC14565A9CD848FCA27A426"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\f16.json"
+            "TargetName" = "8:f16.json"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3899271125534ACCB8F53417A5DC6611"
             {
             "SourcePath" = "8:customAction.vbs"
@@ -220,12 +374,183 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ABE63C7018164232A9EA240C8535342E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_46786AB4361D440BB6D25D2C24169885"
             {
             "SourcePath" = "8:..\\OSBWPF\\Check out MATRIC app.url"
             "TargetName" = "8:Check out MATRIC app.url"
             "Tag" = "8:"
             "Folder" = "8:_FE3201EC44DF49858BD8F20F3E27AE5A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_510C8DA6C6574D4EA58A042636F3BE7C"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\red_up.png"
+            "TargetName" = "8:red_up.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_521B432D7391E514618101577F52463F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_521B432D7391E514618101577F52463F"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5336A584147D4BDA814D4943E956FECF"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\load_up.png"
+            "TargetName" = "8:load_up.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69511EA478F94A7BBA3B487CDAF3E5FC"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\osb_down.png"
+            "TargetName" = "8:osb_down.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B1234593482414399D864A952735F29"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\jf17-2.json"
+            "TargetName" = "8:jf17-2.json"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A9528ADBC39D4C74BF4F8524D5403259"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\OSB Help and Support.url"
+            "TargetName" = "8:OSB Help and Support.url"
+            "Tag" = "8:"
+            "Folder" = "8:_FE3201EC44DF49858BD8F20F3E27AE5A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD7ED4516F7D4945B608C85DADCB2B6A"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\osb_icon.ico"
+            "TargetName" = "8:osb_icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3E2F43429904E91A5297B18EA153A9E"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\red_down.png"
+            "TargetName" = "8:red_down.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -271,23 +596,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BA1B3A43967DD9D165E18E289B5FD906"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B9545AE406C7443DB32E23C5152BF089"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_BA1B3A43967DD9D165E18E289B5FD906"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\jf17-3.json"
+            "TargetName" = "8:jf17-3.json"
             "Tag" = "8:"
-            "Folder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -299,7 +613,127 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD42A43B28854B0FB4D2E59A23C3D2F5"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\jf17-3.png"
+            "TargetName" = "8:jf17-3.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CEBE931A66724C2CAD9F98AE965B8630"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\jf17-2.png"
+            "TargetName" = "8:jf17-2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D46932E951DF4FD2B787EAE25711813E"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\2mfcd.png"
+            "TargetName" = "8:2mfcd.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D5CFAF7FC534498EA1D3640F135B26F9"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\config.json"
+            "TargetName" = "8:config.json"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D61CD80815E54A1DB4F51B4544C68CA0"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\load_down.png"
+            "TargetName" = "8:load_down.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D77F6C3FC9AD484A93F33AAF5A6A785C"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\reload_down.png"
+            "TargetName" = "8:reload_down.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E8C385DD389F83DD69811B8730A9F05C"
@@ -333,6 +767,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EC5FC15D4A004D5F8D33EFDE5E08F9E0"
+            {
+            "SourcePath" = "8:C:\\Windows\\System32\\msiexec.exe"
+            "TargetName" = "8:msiexec.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_E325DDBCDE0F4798828E3A2BA4D06976"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ED5F03E26FA5ED09D0A9A371D751D27B"
             {
             "AssemblyRegister" = "3:1"
@@ -362,6 +816,46 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F4A63A9E7BE1492F85FA5191C009A7CA"
+            {
+            "SourcePath" = "8:..\\OSBWPF\\sample_config\\osb_up.png"
+            "TargetName" = "8:osb_up.png"
+            "Tag" = "8:"
+            "Folder" = "8:_33091FCBDD11434E9E1DAD03991161B7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FC42529D1028414C979DC49DF23E420C"
+            {
+            "SourcePath" = "8:..\\doc\\manual.docx"
+            "TargetName" = "8:manual.docx"
+            "Tag" = "8:"
+            "Folder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -437,6 +931,17 @@
                     }
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_E325DDBCDE0F4798828E3A2BA4D06976"
+            {
+            "Name" = "8:#1914"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:SystemFolder"
+                "Folders"
+                {
+                }
+            }
         }
         "LaunchCondition"
         {
@@ -453,15 +958,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DCS OSB Overlay By MATRIC"
-        "ProductCode" = "8:{45EAD57A-F741-4F83-B471-AC19D1B81BA7}"
-        "PackageCode" = "8:{113CBF1F-421C-4957-928F-72ABDE16B795}"
+        "ProductCode" = "8:{67863FA0-2C47-4013-9B61-DA9FD4AFAAF2}"
+        "PackageCode" = "8:{418712BE-7B18-4047-AAB9-431B54442A65}"
         "UpgradeCode" = "8:{4ED0B4D3-81F9-428F-B375-9ECF2A082A97}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.1.0"
+        "ProductVersion" = "8:0.2.1"
         "Manufacturer" = "8:Ex Machina"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -585,12 +1090,26 @@
             "Target" = "8:_836F109FE6384BEE8386C7FD2BF180FC"
             "Folder" = "8:_FE3201EC44DF49858BD8F20F3E27AE5A"
             "WorkingFolder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
+            "Icon" = "8:_AD7ED4516F7D4945B608C85DADCB2B6A"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2F16DD04388245F788D109330D70DAD1"
+            {
+            "Name" = "8:Uninstall OSB"
+            "Arguments" = "8:/x [ProductCode]"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_EC5FC15D4A004D5F8D33EFDE5E08F9E0"
+            "Folder" = "8:_FE3201EC44DF49858BD8F20F3E27AE5A"
+            "WorkingFolder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
             "Icon" = "8:"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7F25E5BB1D114816B7FF06CCED670AF4"
             {
-            "Name" = "8:DCS OSB"
+            "Name" = "8:OSB Overlay"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -600,6 +1119,20 @@
             "Folder" = "8:_399A55897140441A827F130B606B402C"
             "WorkingFolder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
             "Icon" = "8:_836F109FE6384BEE8386C7FD2BF180FC"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DD0DF60793594A8FB0FB10F9E003FDE7"
+            {
+            "Name" = "8:Manual"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_FC42529D1028414C979DC49DF23E420C"
+            "Folder" = "8:_FE3201EC44DF49858BD8F20F3E27AE5A"
+            "WorkingFolder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -1031,7 +1564,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_836F109FE6384BEE8386C7FD2BF180FC"
             {
-            "SourcePath" = "8:..\\OSBWPF\\obj\\Debug\\OSBWPF.exe"
+            "SourcePath" = "8:..\\OSBWPF\\obj\\Release\\OSBWPF.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
@@ -1052,34 +1585,6 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{0343C974-0150-405A-9FB6-F226A04E2523}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_DCB8B4FC6CD5464289FFE34A8B55B9CF"
-            {
-            "SourcePath" = "8:"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_5582F9AE215B4D4AAE7A8DAD4BB375C8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:ContentFiles"
-            "OutputProjectGuid" = "8:{9EBC150E-4212-429E-AE98-5792B07476E6}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
