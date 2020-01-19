@@ -126,6 +126,8 @@ namespace OSBWPF
             if (e.ChangedButton == MouseButton.Left) {
                 OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
                 int buttonIndex = tag.ButtonIndex;
+                Button b = (Button)sender;
+                Debug.WriteLine($@"BUTTON: {b.Margin.Left},{b.Margin.Top}");
                 joystick.SetBtn(true, Config.VJDeviceId, (uint)tag.vJoyButtonId);
                 SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], true);
                 e.Handled = true;
@@ -451,7 +453,7 @@ namespace OSBWPF
             button.Margin = new Thickness(btnConfig.X, btnConfig.Y, 0, 0);
             button.Style = Resources["OSBButtonStyle"] as Style;
             button.BorderThickness = new Thickness(0, 0, 0, 0);
-            //button.Content = $@"Btn#: {(tag!=null?tag.vJoyButtonId:-1)} {Environment.NewLine} Pos: [{btnConfig.X},{btnConfig.Y}]";
+            button.Content = $@"{(tag != null ? tag.ButtonIndex : -1)}:{(tag!=null?tag.vJoyButtonId:-1)} {Environment.NewLine} Pos: [{btnConfig.X},{btnConfig.Y}]";
             button.Height = btnConfig.Height;
             button.Width = btnConfig.Width;
             BitmapImage bitmap = GetImage(btnConfig.ImageOff);
