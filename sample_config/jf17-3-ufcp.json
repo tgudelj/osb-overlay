@@ -678,8 +678,8 @@
 
     {
         "comment": "1 PFL",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "1-up.png",
+        "imageOn": "1-down.png",
         "x": 640,
         "y": 10,
         "width": 40,
@@ -687,8 +687,8 @@
     }, 
     {
         "comment": "2 VRC",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "2-up.png",
+        "imageOn": "2-down.png",
         "x": 690,
         "y": 10,
         "width": 40,
@@ -696,8 +696,8 @@
     }, 
     {
         "comment": "3",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "3-up.png",
+        "imageOn": "3-down.png",
         "x": 740,
         "y": 10,
         "width": 40,
@@ -715,8 +715,8 @@
     
     {
         "comment": "4 DST",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "4-up.png",
+        "imageOn": "4-down.png",
         "x": 640,
         "y": 60,
         "width": 40,
@@ -724,8 +724,8 @@
     }, 
     {
         "comment": "5 TOT",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "5-up.png",
+        "imageOn": "5-down.png",
         "x": 690,
         "y": 60,
         "width": 40,
@@ -733,8 +733,8 @@
     }, 
     {
         "comment": "6 TOD",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "6-up.png",
+        "imageOn": "6-down.png",
         "x": 740,
         "y": 60,
         "width": 40,
@@ -752,8 +752,8 @@
     
     {
         "comment": "7 FUL",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "7-up.png",
+        "imageOn": "7-down.png",
         "x": 640,
         "y": 110,
         "width": 40,
@@ -761,8 +761,8 @@
     }, 
     {
         "comment": "8 IFF",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "8-up.png",
+        "imageOn": "8-down.png",
         "x": 690,
         "y": 110,
         "width": 40,
@@ -770,8 +770,8 @@
     }, 
     {
         "comment": "9",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "9-up.png",
+        "imageOn": "9-down.png",
         "x": 740,
         "y": 110,
         "width": 40,
@@ -789,8 +789,8 @@
     
     {
         "comment": "RTN",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "rtn-up.png",
+        "imageOn": "rtn-down.png",
         "x": 640,
         "y": 160,
         "width": 40,
@@ -798,8 +798,8 @@
     }, 
     {
         "comment": "0",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "0-up.png",
+        "imageOn": "0-down.png",
         "x": 690,
         "y": 160,
         "width": 40,
@@ -836,8 +836,8 @@
     }, 
     {
         "comment": "OAP",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "oap-up.png",
+        "imageOn": "oap-down.png",
         "x": 1140,
         "y": 10,
         "width": 40,
@@ -845,8 +845,8 @@
     },  
     {
         "comment": "MRK",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "mrk-up.png",
+        "imageOn": "mrk-down.png",
         "x": 1190,
         "y": 10,
         "width": 40,
@@ -864,8 +864,8 @@
     }, 
     {
         "comment": "P.U",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "pu-up.png",
+        "imageOn": "pu-down.png",
         "x": 1140,
         "y": 60,
         "width": 40,
@@ -873,8 +873,8 @@
     },  
     {
         "comment": "HNS",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "hns-up.png",
+        "imageOn": "hns-down.png",
         "x": 1190,
         "y": 60,
         "width": 40,
@@ -892,8 +892,8 @@
     }, 
     {
         "comment": "A/P",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "ap-up.png",
+        "imageOn": "ap-down.png",
         "x": 1140,
         "y": 110,
         "width": 40,
@@ -901,8 +901,8 @@
     },  
     {
         "comment": "FPM",
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
+        "imageOff": "fpm-up.png",
+        "imageOn": "fpm-down.png",
         "x": 1190,
         "y": 110,
         "width": 40,
