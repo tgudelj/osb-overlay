@@ -1,36 +1,40 @@
 {
     "VJDeviceId": 8,
     "maskBitmap": "jf17-3.png",
-    "height": 1080,
+    "x": 2560,
+    "y": 350,
     "width": 1920,
-    "x": 0,
-    "Y": 0,
-    "loadButton":{
-        "x": 1400,
-        "y": 50,
-        "width": 100,
-        "height": 100,
-        "imageOff": "load_up.png",
-        "imageOn": "load_down.png"
-    },
-	"reloadButton":{
+    "height": 1080,
+    "reloadButton": {
+        "joyBtnId": -1,
+        "imageOff": "reload_up.png",
+        "imageOn": "reload_down.png",
         "x": 1600,
         "y": 50,
         "width": 100,
-        "height": 100,
-        "imageOff": "reload_up.png",
-        "imageOn": "reload_down.png"
+        "height": 100
     },
-    "exitButton":{
+    "exitButton": {
+        "joyBtnId": -1,
+        "imageOff": "red_down.png",
+        "imageOn": "red_up.png",
         "x": 1800,
         "y": 50,
         "width": 100,
-        "height": 100,
-        "imageOff": "red_down.png",
-        "imageOn": "red_up.png"
+        "height": 100
+    },
+    "loadButton": {
+        "joyBtnId": -1,
+        "imageOff": "load_up.png",
+        "imageOn": "load_down.png",
+        "x": 1400,
+        "y": 50,
+        "width": 100,
+        "height": 100
     },
     "buttons": [
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 50,
@@ -39,14 +43,16 @@
             "height": 40
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 158,
             "y": 220,
             "width": 108,
             "height": 40
-        },        
+        },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 266,
@@ -55,14 +61,16 @@
             "height": 40
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 374,
             "y": 220,
             "width": 108,
             "height": 40
-        },        
+        },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 482,
@@ -70,8 +78,8 @@
             "width": 108,
             "height": 40
         },
-
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 600,
@@ -80,14 +88,16 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 600,
             "y": 355,
             "width": 40,
             "height": 95
-        },        
+        },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 600,
@@ -96,14 +106,16 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 600,
             "y": 545,
             "width": 40,
             "height": 95
-        },        
+        },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 600,
@@ -112,6 +124,7 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 600,
@@ -120,6 +133,7 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 600,
@@ -128,6 +142,7 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 600,
@@ -135,8 +150,8 @@
             "width": 40,
             "height": 95
         },
-
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 482,
@@ -145,14 +160,16 @@
             "height": 40
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 374,
             "y": 1040,
             "width": 108,
             "height": 40
-        },        
+        },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 266,
@@ -161,14 +178,16 @@
             "height": 40
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 158,
             "y": 1040,
             "width": 108,
             "height": 40
-        },        
+        },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 50,
@@ -176,8 +195,8 @@
             "width": 108,
             "height": 40
         },
-
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 0,
@@ -186,14 +205,16 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 0,
             "y": 355,
             "width": 40,
             "height": 95
-        },        
+        },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 0,
@@ -202,14 +223,16 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 0,
             "y": 545,
             "width": 40,
             "height": 95
-        },        
+        },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 0,
@@ -218,6 +241,7 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 0,
@@ -226,6 +250,7 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 0,
@@ -234,6 +259,7 @@
             "height": 95
         },
         {
+            "joyBtnId": -1,
             "imageOff": "osb_up.png",
             "imageOn": "osb_down.png",
             "x": 0,
@@ -241,444 +267,473 @@
             "width": 40,
             "height": 95
         },
-
-        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 690,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 798,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 906,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1014,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1122,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },
-
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1240,
-        "y": 260,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1240,
-        "y": 355,
-        "width": 40,
-        "height": 95
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1240,
-        "y": 450,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1240,
-        "y": 545,
-        "width": 40,
-        "height": 95
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1240,
-        "y": 640,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1240,
-        "y": 735,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1240,
-        "y": 830,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1240,
-        "y": 925,
-        "width": 40,
-        "height": 95
-    },
-
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1122,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1014,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 906,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 798,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 690,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },
-
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 640,
-        "y": 260,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 640,
-        "y": 355,
-        "width": 40,
-        "height": 95
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 640,
-        "y": 450,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 640,
-        "y": 545,
-        "width": 40,
-        "height": 95
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 640,
-        "y": 640,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 640,
-        "y": 735,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 640,
-        "y": 830,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 640,
-        "y": 925,
-        "width": 40,
-        "height": 95
-    },
-    
-    
-
-
-
-
-
-
-
-
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1330,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1438,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1546,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1654,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1762,
-        "y": 220,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1280,
-        "y": 260,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1280,
-        "y": 355,
-        "width": 40,
-        "height": 95
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1280,
-        "y": 450,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1280,
-        "y": 545,
-        "width": 40,
-        "height": 95
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1280,
-        "y": 640,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1280,
-        "y": 735,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1280,
-        "y": 830,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1280,
-        "y": 925,
-        "width": 40,
-        "height": 95
-    },
-
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1330,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1438,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1546,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1654,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1762,
-        "y": 1040,
-        "width": 108,
-        "height": 40
-    },
-
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1880,
-        "y": 260,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1880,
-        "y": 355,
-        "width": 40,
-        "height": 95
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1880,
-        "y": 450,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1880,
-        "y": 545,
-        "width": 40,
-        "height": 95
-    },        
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1880,
-        "y": 640,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1880,
-        "y": 735,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1880,
-        "y": 830,
-        "width": 40,
-        "height": 95
-    },
-    {
-        "imageOff": "osb_up.png",
-        "imageOn": "osb_down.png",
-        "x": 1880,
-        "y": 925,
-        "width": 40,
-        "height": 95
-    }  
-
-
-
-
-
-
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 690,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 798,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 906,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1014,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1122,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1240,
+            "y": 260,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1240,
+            "y": 355,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1240,
+            "y": 450,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1240,
+            "y": 545,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1240,
+            "y": 640,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1240,
+            "y": 735,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1240,
+            "y": 830,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1240,
+            "y": 925,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1122,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1014,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 906,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 798,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 690,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 640,
+            "y": 260,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 640,
+            "y": 355,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 640,
+            "y": 450,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 640,
+            "y": 545,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 640,
+            "y": 640,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 640,
+            "y": 735,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 640,
+            "y": 830,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 640,
+            "y": 925,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1330,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1438,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1546,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1654,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1762,
+            "y": 220,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1880,
+            "y": 260,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1880,
+            "y": 355,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1880,
+            "y": 450,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1880,
+            "y": 545,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1880,
+            "y": 640,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1880,
+            "y": 735,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1880,
+            "y": 830,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1880,
+            "y": 925,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1330,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1438,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1546,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1654,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1762,
+            "y": 1040,
+            "width": 108,
+            "height": 40
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1280,
+            "y": 260,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1280,
+            "y": 355,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1280,
+            "y": 450,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1280,
+            "y": 545,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1280,
+            "y": 640,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1280,
+            "y": 735,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1280,
+            "y": 830,
+            "width": 40,
+            "height": 95
+        },
+        {
+            "joyBtnId": -1,
+            "imageOff": "osb_up.png",
+            "imageOn": "osb_down.png",
+            "x": 1280,
+            "y": 925,
+            "width": 40,
+            "height": 95
+        }        
     ]
 }
