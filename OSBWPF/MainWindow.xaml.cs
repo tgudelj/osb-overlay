@@ -15,6 +15,7 @@ using Microsoft.Win32;
 using OSB.Core;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 
 namespace OSBWPF
 {
@@ -29,7 +30,6 @@ namespace OSBWPF
         static string OSB_BUTTON_PREFIX = "osb_btn_";
         OSBConfig Config;
         const double FOREGROUND_WINDOW_CHECK_INTERVAL = 100;
-        DispatcherTimer timer = new DispatcherTimer();
         static bool WindowMoveEnabled = false;
         public MainWindow()
         {
@@ -44,13 +44,27 @@ namespace OSBWPF
             }
             this.Topmost = true;
             InitJoystickDevice();
-            mCanvas.MouseUp += OnCanvasMouseUp;
             RenderForm();
-            timer.Interval = TimeSpan.FromMilliseconds(FOREGROUND_WINDOW_CHECK_INTERVAL);
-            timer.Tick += Timer_Tick;
-            timer.Start();
             CheckUpdate();       
         }
+
+        protected override void OnSourceInitialized(EventArgs e) {
+            base.OnSourceInitialized(e);
+
+            //Set the window style to noactivate.
+            var helper = new WindowInteropHelper(this);
+            SetWindowLong(helper.Handle, GWL_EXSTYLE,
+                GetWindowLong(helper.Handle, GWL_EXSTYLE) | WS_EX_NOACTIVATE);
+        }
+
+        private const int GWL_EXSTYLE = -20;
+        private const int WS_EX_NOACTIVATE = 0x08000000;
+
+        [DllImport("user32.dll")]
+        public static extern IntPtr SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);
+
+        [DllImport("user32.dll")]
+        public static extern int GetWindowLong(IntPtr hWnd, int nIndex);
 
         /// <summary>
         /// Check if an update is available
@@ -102,21 +116,6 @@ namespace OSBWPF
         }
 
         /// <summary>
-        /// Timer tick, periodically check foreground window so we can restore focus to that window after executing OSB button command
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Timer_Tick(object sender, EventArgs e)
-        {
-            IntPtr current = OSB.Core.win32.GetForegroundWindow();
-            IntPtr thisHandle = new WindowInteropHelper(this).Handle;
-            if (current != thisHandle)
-            {
-                mPreviousForegroundWindow = current;
-            }
-        }
-
-        /// <summary>
         /// Handles OSB button press
         /// </summary>
         /// <param name="sender">Button being pressed</param>
@@ -147,7 +146,6 @@ namespace OSBWPF
                 OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
                 int buttonIndex = tag.ButtonIndex;
                 joystick.SetBtn(false, Config.VJDeviceId, (uint)tag.vJoyButtonId);
-                RestorePrevious();
                 SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], false);
                 e.Handled = true;
             }
@@ -168,7 +166,6 @@ namespace OSBWPF
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void ExitRelease(object sender, MouseButtonEventArgs e) {
-            RestorePrevious();
             this.Close();
         }
 
@@ -214,16 +211,6 @@ namespace OSBWPF
         }
 
         /// <summary>
-        /// Occurs when canvas was clicked (basically anywhere except buttons)
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void OnCanvasMouseUp(object sender, MouseButtonEventArgs e)
-        {
-            RestorePrevious();
-        }
-
-        /// <summary>
         /// Context menu reload item click
         /// </summary>
         /// <param name="sender"></param>
@@ -250,21 +237,9 @@ namespace OSBWPF
         /// <param name="e"></param>
         private void mnu_ExitClick(object sender, RoutedEventArgs e)
         {
-            RestorePrevious();
             this.Close();
         }
         #endregion
-
-        /// <summary>
-        /// Restores the window that was in the foreground before MATRIC OSB was clicked 
-        /// </summary>
-        private void RestorePrevious()
-        {
-            if (mPreviousForegroundWindow != IntPtr.Zero)
-            {
-                OSB.Core.win32.SetForegroundWindow(mPreviousForegroundWindow);
-            }
-        }
 
         /// <summary>
         /// Reloads the current config
@@ -273,7 +248,6 @@ namespace OSBWPF
             Config = OSBConfig.Get(Config.ConfigFilePath);
             InitJoystickDevice();
             RenderForm();
-            RestorePrevious();
         }
 
         /// <summary>
@@ -288,7 +262,6 @@ namespace OSBWPF
                 Config = OSBConfig.Get(openFileDialog.FileName);
                 InitJoystickDevice();
                 RenderForm();
-                RestorePrevious();
             }
         }
 
@@ -453,7 +426,7 @@ namespace OSBWPF
             button.Margin = new Thickness(btnConfig.X, btnConfig.Y, 0, 0);
             button.Style = Resources["OSBButtonStyle"] as Style;
             button.BorderThickness = new Thickness(0, 0, 0, 0);
-            button.Content = $@"{(tag != null ? tag.ButtonIndex : -1)}:{(tag!=null?tag.vJoyButtonId:-1)} {Environment.NewLine} Pos: [{btnConfig.X},{btnConfig.Y}]";
+            //button.Content = $@"{(tag != null ? tag.ButtonIndex : -1)}:{(tag!=null?tag.vJoyButtonId:-1)} {Environment.NewLine} Pos: [{btnConfig.X},{btnConfig.Y}]";
             button.Height = btnConfig.Height;
             button.Width = btnConfig.Width;
             BitmapImage bitmap = GetImage(btnConfig.ImageOff);
