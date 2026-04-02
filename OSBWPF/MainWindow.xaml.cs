@@ -34,14 +34,21 @@ namespace OSBWPF
         public MainWindow()
         {
             InitializeComponent();
+            string configPath = Path.Combine(OSBConfig.GetApplicationFolderPath(), "config.json");
             if (App.args.Length > 0)
             {
-                Config = OSBConfig.Get(App.args[0]);
+                if (File.Exists(App.args[0])) {
+                    configPath = App.args[0];
+                }
             }
             else
             {
-                Config = OSBConfig.Get();
+                if (!string.IsNullOrEmpty(Properties.Settings.Default.LastConfigUsed) && File.Exists(Properties.Settings.Default.LastConfigUsed)) {
+                    configPath = Properties.Settings.Default.LastConfigUsed;
+                }
             }
+
+            Config = OSBConfig.Get(configPath);
             this.Topmost = true;
             InitJoystickDevice();
             RenderForm();
@@ -122,15 +129,7 @@ namespace OSBWPF
         /// <param name="e"></param>
         private void OSBPress(object sender, MouseButtonEventArgs e)
         {
-            if (e.ChangedButton == MouseButton.Left) {
-                OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
-                int buttonIndex = tag.ButtonIndex;
-                Button b = (Button)sender;
-                Debug.WriteLine($@"BUTTON: {b.Margin.Left},{b.Margin.Top}");
-                joystick.SetBtn(true, Config.VJDeviceId, (uint)tag.vJoyButtonId);
-                SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], true);
-                e.Handled = true;
-            }
+            e.Handled = true;
         }
 
         /// <summary>
@@ -140,15 +139,34 @@ namespace OSBWPF
         /// <param name="e"></param>
         private void OSBRelease(object sender, MouseButtonEventArgs e)
         {
+            e.Handled = true;
+        }
 
-            if (e.ChangedButton == MouseButton.Left)
-            {
-                OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
-                int buttonIndex = tag.ButtonIndex;
-                joystick.SetBtn(false, Config.VJDeviceId, (uint)tag.vJoyButtonId);
-                SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], false);
-                e.Handled = true;
-            }
+        private void OSBButtonRighPress(object sender, MouseButtonEventArgs e) {
+            e.Handled = true;
+        }
+
+        private void OSBButtonRighRelease(object sender, MouseButtonEventArgs e) {
+             e.Handled = true;
+        }
+
+        private void OSBTouchUp(object sender, TouchEventArgs e) {
+            OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
+            Debug.WriteLine($@"BUTTON: {tag.ButtonIndex} touch up");
+            int buttonIndex = tag.ButtonIndex;
+            joystick.SetBtn(false, Config.VJDeviceId, (uint)tag.vJoyButtonId);
+            SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], false);
+            e.Handled = true;
+        }
+
+        private void OSBTouchDown(object sender, TouchEventArgs e) {
+            OSBButtonTag tag = (OSBButtonTag)((Button)sender).Tag;
+            int buttonIndex = tag.ButtonIndex;
+            Button b = (Button)sender;
+            Debug.WriteLine($@"BUTTON: {tag.ButtonIndex} touch down");
+            joystick.SetBtn(true, Config.VJDeviceId, (uint)tag.vJoyButtonId);
+            SetButtonVisual(((Button)sender), Config.Buttons[buttonIndex], true);
+            e.Handled = true;
         }
 
         /// <summary>
@@ -259,9 +277,13 @@ namespace OSBWPF
             openFileDialog.Filter = "MATRIC OSB configuration (*.json)|*.json";
             if (openFileDialog.ShowDialog() == true)
             {
-                Config = OSBConfig.Get(openFileDialog.FileName);
-                InitJoystickDevice();
-                RenderForm();
+                if (File.Exists(openFileDialog.FileName)) { 
+                    Config = OSBConfig.Get(openFileDialog.FileName);
+                    InitJoystickDevice();
+                    RenderForm();                
+                    Properties.Settings.Default.LastConfigUsed = openFileDialog.FileName;
+                    Properties.Settings.Default.Save();
+                }
             }
         }
 
@@ -381,6 +403,10 @@ namespace OSBWPF
                 button.Name = $@"{OSB_BUTTON_PREFIX}{i}";
                 button.PreviewMouseDown += OSBPress;
                 button.PreviewMouseUp += OSBRelease;
+                button.PreviewMouseRightButtonDown += OSBButtonRighPress;
+                button.PreviewMouseRightButtonUp += OSBButtonRighRelease;
+                button.PreviewTouchDown += OSBTouchDown;
+                button.PreviewTouchUp += OSBTouchUp;
                 mCanvas.Children.Add(button);
                 i++;
             }
