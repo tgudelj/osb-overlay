@@ -1,0 +1,541 @@
+{
+    "VJDeviceId": 8,
+    "maskBitmap": "f16_large.png",
+    "x": 620,
+    "y": 1441,
+    "width": 1920,
+    "height": 1080,
+    "reloadButton": {
+        "joyBtnId": -1,
+        "imageOff": "reload_up.png",
+        "imageOn": "reload_down.png",
+        "x": 200,
+        "y": 5,
+        "width": 100,
+        "height": 100
+    },
+    "exitButton": {
+        "joyBtnId": -1,
+        "imageOff": "red_down.png",
+        "imageOn": "red_up.png",
+        "x": 350,
+        "y": 5,
+        "width": 100,
+        "height": 100
+    },
+    "loadButton": {
+        "joyBtnId": -1,
+        "imageOff": "load_up.png",
+        "imageOn": "load_down.png",
+        "x": 50,
+        "y": 5,
+        "width": 100,
+        "height": 100
+    },
+    "buttons": [
+        {
+            "joyBtnId": 41,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 20,
+            "y": 220,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 42,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 20,
+            "y": 280,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 43,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 865,
+            "y": 220,
+            "width": 60,
+            "height": 60
+        },
+        {
+            "joyBtnId": 44,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 865,
+            "y": 280,
+            "width": 60,
+            "height": 60
+        },
+        {
+            "joyBtnId": 45,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 20,
+            "y": 870,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 46,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 20,
+            "y": 930,
+            "width": 65,
+            "height": 60
+        },        
+        {
+            "joyBtnId": 47,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 865,
+            "y": 870,
+            "width": 60,
+            "height": 60
+        },
+        {
+            "joyBtnId": 48,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 865,
+            "y": 930,
+            "width": 60,
+            "height": 60
+        },        
+        {
+            "joyBtnId": 49,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 980,
+            "y": 220,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 50,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x":980,
+            "y": 280,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 51,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 980,
+            "y": 870,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 52,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x":980,
+            "y": 930,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 53,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 1825,
+            "y": 220,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 54,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x":1825,
+            "y": 280,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 55,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x": 1825,
+            "y": 870,
+            "width": 65,
+            "height": 60
+        },
+        {
+            "joyBtnId": 56,
+            "imageOff": "transparent.png",
+            "imageOn": "highlight.png",
+            "x":1825,
+            "y": 930,
+            "width": 65,
+            "height": 60
+        },        
+        {
+            "joyBtnId": 1,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 210,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 2,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 320,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 3,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 430,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 4,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 540,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 5,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 650,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 6,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 850,
+            "y": 360,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 7,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 850,
+            "y": 460,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 8,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 850,
+            "y": 560,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 9,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 850,
+            "y": 660,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 10,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 850,
+            "y": 760,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 11,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 210,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 12,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 320,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 13,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 430,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 14,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 540,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 15,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 650,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 16,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 10,
+            "y": 360,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 17,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 10,
+            "y": 460,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 18,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 10,
+            "y": 560,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 19,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 10,
+            "y": 660,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 20,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 10,
+            "y": 760,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 21,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1170,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 22,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1280,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 23,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1390,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 24,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1500,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 25,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1610,
+            "y": 140,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 26,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1810,
+            "y": 360,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 27,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1810,
+            "y": 460,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 28,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1810,
+            "y": 560,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 29,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1810,
+            "y": 660,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 30,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1810,
+            "y": 760,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 31,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1170,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 32,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1280,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 33,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1390,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 34,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1500,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 35,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 1610,
+            "y": 985,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 36,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 970,
+            "y": 360,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 37,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 970,
+            "y": 460,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 38,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 970,
+            "y": 560,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 39,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 970,
+            "y": 660,
+            "width": 90,
+            "height": 90
+        },
+        {
+            "joyBtnId": 40,
+            "imageOff": "osb_up_light.png",
+            "imageOn": "osb_down_light.png",
+            "x": 970,
+            "y": 760,
+            "width": 90,
+            "height": 90
+        }
+    ]
+}
